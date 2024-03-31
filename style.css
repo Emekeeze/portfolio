@@ -1,0 +1,79 @@
+
+
+body{
+    margin: 0;
+    padding: 0;
+}
+.section{
+    background-color: gray;
+    
+}
+.hero {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+  
+}
+.first{
+    margin-bottom: 50px;
+}
+input[type=button]{
+    border-radius: 4px;
+    border: none;
+    color: blanchedalmond;
+    background-color: blueviolet;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    text-decoration: none;
+    padding: 10px 24px;
+}
+@media only screen and (max-width: 768px) {
+    .first{
+        margin-left: 2rem;
+        
+    }
+    .section{
+        height: 100%;
+        
+  }}
+  .Services{
+
+    background-color: brown;
+  }
+  h2{
+    text-align: center;
+    padding-top: 2rem;
+  }
+  .container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+  }
+  .same{
+    border: 1px solid black;
+    margin-right: 10px;
+    border-radius: 8px;
+    text-align: center;
+    padding-top: 2rem;
+    margin-bottom: 2rem;
+    background-color: antiquewhite;
+  }
+  #wrapper{
+    position: relative;
+    display: block;
+    margin: 0 auto;
+  }
+  .container > div > p {
+   padding: 10px;
+  }
